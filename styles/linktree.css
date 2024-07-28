@@ -1,0 +1,50 @@
+body {
+  background-image: url(../Images/Header\ Background.jpg);
+  background-color: #cccccc;
+  background-size: fill;
+}
+
+.links-flexbox {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.discord, .youtube, .twitch, .portfolio, .pronouns{
+  display: inline;
+  width: auto;
+  margin-right: 30px;
+}
+
+.discord-logo, .youtube-logo, .twitch-logo, .portfolio-logo, .pronouns-logo{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+
+.discord-text, .youtube-text, .twitch-text, .portfolio-text, .pronouns-text{
+  position: absolute;
+  left: 20px;
+  top: 60px;
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+}
+
+.youtube-text {
+  left: 150px;
+}
+
+.twitch-text {
+  left: 295px;
+}
+
+.portfolio-text {
+  left: 430px;
+}
+
+.pronouns-text {
+  left: 550px;
+}
