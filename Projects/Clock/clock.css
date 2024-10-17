@@ -1,0 +1,25 @@
+
+body {
+    background-attachment: fixed;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.timeDisplay {
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 6em;
+    backdrop-filter: blur(10px);
+    color: white;
+}

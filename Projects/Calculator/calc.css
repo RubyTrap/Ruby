@@ -1,0 +1,97 @@
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 30em;
+  border-radius: 10px;
+  border-color: #313335;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.results_text {
+  color: white;
+  font-size: 2em;
+  text-align: right;
+  margin: 0;
+  margin-bottom: .4em;
+  margin-right: .4em;
+}
+
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.button-flex-col {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+  justify-content: space-around;
+}
+
+.button-flex-row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: .7rem;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+body {
+  height: 100vh;
+  background-color: #1f1f1f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+.operator {
+  background-color: hsl(213, 5%, 39%);
+}
+
+.operator:hover {
+  background-color: hsl(213, 5%, 44%);
+}
+
+.equals {
+  background-color: #8ab4f8;
+}
+
+.equals:hover {
+  background-color: #aecbfa;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;;
+  width: 100%;
+  font-size: 3em;
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0);
+  background-color: hsl(210, 4%, 27%);
+  color: white;
+}
+
+
+button:hover {
+  opacity: 1.2;
+  background-color: hsl(210, 4%, 32%);
+  cursor: pointer;
+}
+
+button:active {
+  border-color: #313335;
+  border-style: solid;
+  border-width: 2px;
+  
+}
